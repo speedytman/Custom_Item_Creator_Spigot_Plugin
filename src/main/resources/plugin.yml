@@ -1,0 +1,10 @@
+name: CustomItemCreator
+version: '${project.version}'
+main: com.speedytman.customitemcreator.CustomItemCreator
+api-version: 1.19
+authors: [ speedytman ]
+description: GUI based Item creation
+website: speedytman.com
+commands:
+  createitem:
+    description: Opens GUI to Create an Item
