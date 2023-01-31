@@ -310,6 +310,7 @@ public class MenuClickEvent implements Listener {
                     player.closeInventory();
                     material = "turtle";
                     itemMenu.createMenu(player, catagory, type, material);
+                    break;
                 case SPAWNER:
                     player.closeInventory();
                     armourPieceSubMenu.createMenu(player);
